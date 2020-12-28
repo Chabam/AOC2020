@@ -1,6 +1,6 @@
 import functools, itertools, operator
 
-INPUT = open("./input", "r")
+INPUT = open("./input.txt", "r")
 
 entries = [int(num) for num in INPUT.readlines()]
 entries_paired = itertools.combinations(entries, 3)

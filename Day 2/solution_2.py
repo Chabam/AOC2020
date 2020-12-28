@@ -1,6 +1,6 @@
 import re
 
-INPUT = open("./input", "r")
+INPUT = open("./input.txt", "r")
 passwords = INPUT.readlines()
 password_pattern = re.compile(r"(\d+)-(\d+) (\w): (\w+)")
 valid_passwords_sum = 0
